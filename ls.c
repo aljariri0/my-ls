@@ -11,9 +11,16 @@ int main(int argc, char *argv[]) {
 
     perror("opendir");
     return 1;
-
   } 
 
+  struct dirent *entry;
+
+  while (*entry != NULL) {
+
+    entry = readdir(dir);
+    printf("%s\n", entry->d_name);
+
+  }
 
   return 0;
 
