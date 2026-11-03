@@ -1,4 +1,4 @@
-## Build ls Command in C
+## Build ls Command in C - No AI
 
 BUILD SOMETHING WITHOUT AI
 
